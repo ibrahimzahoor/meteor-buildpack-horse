@@ -6,4 +6,4 @@ PHANTOM_URL="https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-$VERSION-
 echo "-----> Installing phantomjs."
 # Just extract the one file (the binary) and not all the examples/readme's/etc.
 FILE="phantomjs-$VERSION-linux-x86_64/bin/phantomjs"
-sudo npm install -g phantomjs
+npm install -g phantomjs
